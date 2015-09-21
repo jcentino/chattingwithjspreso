@@ -1,0 +1,105 @@
+{
+  "slides": [
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "Let's Abuse the Web Speech API!"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "header",
+          "html": "Abusing &quot;Continuous&quot;"
+        },
+        {
+          "region": "center",
+          "html": "Speech input eventually ends, but what if it didn't? <br />Lets listen for the &quot;speech.onend&quot; and restart..."
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "background": "onspeechend.png",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "header",
+          "html": "Don't abuse &quot;onerror&quot;"
+        },
+        {
+          "region": "center",
+          "html": "If the error event fires...it will probably always fire, so don't restart your speech listener"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "header",
+          "html": "Sidenote: What causes errors?"
+        },
+        {
+          "region": "left",
+          "html": "<ul><li>Chrome knows your microphone isn't on</li><li>You haven't given Chrome permission to listen (esp over http)</li><li>You don't have an internet connection</li></ul>"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "Lets bring Web Speech back to the DOM <br /><br />Yay for Web Components!"
+        },
+
+        {
+          "region": "footer",
+          "html": "<a href=\"node_modules/ccwc-speechrecognition/demo/index.html\" target=\"blank\">Demo</a>"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "footer",
+          "html": "Commands are cool, but just doing some string matching <br />Actual understanding is a different subject"
+        }
+      ],
+      "background": "commandcode.png",
+      "backgroundProperties": {
+        "bounds": "contain"
+      }
+    }
+  ]
+}

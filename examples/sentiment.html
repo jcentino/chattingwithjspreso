@@ -1,0 +1,53 @@
+<style>
+    .example {
+        width: 100vw;
+        margin-top: 200px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .example textarea, #negative-results, #positive-results, #score {
+        font-size: xx-large;
+    }
+
+    .example textarea {
+        width: 90vh;
+    }
+
+    #negative-results {
+        color: red;
+    }
+
+    #positive-results {
+        color: green;
+    }
+</style>
+
+<h1>Sentiment.js</h1>
+<div class="example">
+    <textarea id="inputtext" type="text" width="90%"></textarea>
+    <div id="negative-results" type="text" width="400"></div>
+    <div id="positive-results" type="text" width="400"></div>
+    <div id="score" type="text" width="400"></div>
+</div>
+
+<!-- This file was created with Browserify -->
+<script src="src/sentimentjs.js"></script>
+
+
+<!-- Note that I manually changed this script not to push the array index onto the result with the actual result. That was weird -->
+<script>
+    document.querySelector('#inputtext').addEventListener('input', function(event) {
+        var results = sentimentjs.stringsArray([event.currentTarget.value]);
+
+        document.querySelector('#negative-results').innerText = results.stringsWithAnalyses[0].baseLayerResults.negativeWords.join(', ') + ' ' +
+                results.stringsWithAnalyses[0].emoticonLayerResults.negativeWords.join(', ') + ' ' +
+                results.stringsWithAnalyses[0].slangLayerResults.negativeWords.join(', ');
+
+        document.querySelector('#positive-results').innerText = results.stringsWithAnalyses[0].baseLayerResults.positiveWords.join(', ') + ' ' +
+                results.stringsWithAnalyses[0].emoticonLayerResults.positiveWords.join(', ') + ' ' +
+                results.stringsWithAnalyses[0].slangLayerResults.positiveWords.join(', ');
+
+        document.querySelector('#score').innerText = 'Score: ' + results.stringsWithAnalyses[0].overallResults.score;
+    })
+</script>

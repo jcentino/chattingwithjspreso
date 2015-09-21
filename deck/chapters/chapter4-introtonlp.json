@@ -1,0 +1,177 @@
+{
+  "slides": [
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "Natural Language Processing <br /> the art of understanding speech and language"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "header",
+          "html": "It's REALLY HAPPENING"
+        }
+      ],
+      "background": "wired.png",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "footer",
+          "html": "the top of the pack with voice and understanding"
+        }
+      ],
+      "background": "voiceassistants.png",
+      "backgroundProperties": {
+        "bounds": "contain"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "Some paid services with REST endpoints <br /> <a target=\"blank\" href=\"https://www.textrazor.com/demo\">Text Razor</a>"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "contain"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "What can we do with local, simple JS?"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "Let's start simple with some Sentiment Analysis <br /> There are many libraries...<a href=\"examples/sentiment.html\" target=\"blank\">here's one</a>"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "Lets get a little more complex with <a href=\"examples/sherlock.html\" target=\"blank\">SherlockJS</a> for Date/Time understanding"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "header",
+          "html": "NLP-Compromise goes even further"
+        },
+        {
+          "region": "left",
+          "html": "<ul><li>POS Tagging</li><li>Named Entity Recognition</li><li>Pluralization</li><li>Past/Future Tenses</li><li>US/UK Localization</li><li>..and more</li></ul>"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "But non trained, simple solutions can only go so far"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "Picking out nouns and action words and subjects can go a long way towards understanding, but..."
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "Consider the following sentence: <br /><br /> I will definitely need to get some coffee soon "
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "Sentence Chunking can create better understanding <br /><br /> Subject (I) Action (will definitely need to get some coffee) Time (soon)"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "Chunking, Stemming, Sentence Trees are all more hardcore NLP subjects and are better tackled with tools like NLTK (Python)"
+        },
+        {
+          "region": "footer",
+          "html": "http://www.nltk.org"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    }
+
+  ]
+}

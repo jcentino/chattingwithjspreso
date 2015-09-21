@@ -1,0 +1,198 @@
+{
+  "slides": [
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "the Web Speech API <br /> Speech Recognition in your Browser"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "Chrome only right now <br /> (OK, Opera too, and Firefox hidden behind a flag)"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "background": "caniuse.png",
+      "backgroundProperties": {
+        "bounds": "contain"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "header",
+          "html": "Let's use the Input Tag"
+        },
+        {
+          "region": "center",
+          "html": "&lt;input type=&quot;text&quot; speech x-webkit-speech onwebkitspeechchange=&quot;...&quot;&gt;"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "Nevermind, it's deprecated"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "background": "google.png",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "header",
+          "html": "A different sort of experience <a href=\"https://google.com\" target=\"blank\">+</a>"
+        }
+      ],
+      "background": "google2.png",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "So then, how do I build stuff?"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "<a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API\" target=\"blank\">the Web Speech API</a>"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+
+    {
+      "text": [
+        {
+          "region": "left",
+          "html": "<ul><li>var speech = new webkitSpeechRecognition();</li><li>speech.onresult = function(event){}</li><li>speech.onend = function(event){}</li><li>speech.onerrror = function(event){}</li></ul>"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "header",
+          "html": "Some important options..."
+        },
+        {
+          "region": "left",
+          "html": "<ul><li>speech.continuous = true;</li><li>speech.interimResults</li></ul>"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "header",
+          "html": "Continuous"
+        },
+        {
+          "region": "left",
+          "html": "When <strong>speech.start()</strong> and continuous is false (default), speech recognition will stop when the user stops talking.<br /><br /> When true, recognition will keep going."
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+    {
+      "text": [
+        {
+          "region": "header",
+          "html": "Interim Results"
+        },
+        {
+          "region": "left",
+          "html": "When <strong>speech.onresult = function(event)....</strong> fires, the event will contain very quick guesses at what you said.<br /><br />There is a bit of delay on the &quot;final&quot; results. Interim results provides instant feedback."
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "header",
+          "html": "Interim Results"
+        },
+        {
+          "region": "footer",
+          "html": "event.results is an array of word segments spoken - it accumulates as you continue to speak, and contains ANOTHER array of possible alternatives complete with confidence metrics"
+        }
+      ],
+      "images": [
+        {
+          "region": "center",
+          "image": "speechevent.png"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    }
+  ]
+}

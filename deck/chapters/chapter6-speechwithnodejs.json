@@ -1,0 +1,58 @@
+{
+  "slides": [
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "Chapter 4 - No Browser, No Problem"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "header",
+          "html": "Node.js"
+        },
+        {
+          "region": "footer",
+          "html": "Lets do all that stuff with paid services, but without a browser"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "header",
+          "html": "Getting Audio into Node"
+        }
+      ],
+      "text": [
+        {
+          "region": "footer",
+          "html": "the Swiss Army knife of sound processing programs"
+        }
+      ],
+      "images": [
+        {
+          "region": "center",
+          "image": "sox-logo.png"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "slides": [
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "Context Matters"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "header",
+          "html": "the Telephone game"
+        }
+      ],
+
+      "images": [
+        {
+          "region": "center",
+          "image": "telephone.png"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "If humans have a hard time with short phrases, why would computers be better?"
+        }
+      ],
+
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "The more you talk, the more context you give an all-encompassing speech service to understand you"
+        }
+      ],
+
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "That's why interim results are quick and not that accurate, and final results are best"
+        }
+      ],
+
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "What about YOUR context as a dev?<br />These speech services can understand you, but what can you do to understand them?"
+        },
+        {
+          "region": "footer",
+          "html": "Hint...it's hard"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+
+      "background": "googlenlp.png",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    }
+  ]
+}

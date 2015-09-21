@@ -1,0 +1,12 @@
+{
+  "name": "chattingwithjspreso",
+  "version": "0.0.1",
+  "dependencies": {
+    "ccwc-slideshow": "git+https://git@github.com/creativecode-webcomponents/ccwc-slideshow.git",
+    "nlp_compromise": "^1.1.3",
+    "sentimentjs": "^1.0.6",
+    "sherlockjs": "0.0.9",
+    "webcomponents.js": "^0.7.2",
+    "xml2js": "^0.4.12"
+  }
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Sherlock</title>
+    <!-- This file was created with Browserify -->
+    <script src="src/sherlock.js"></script>
+
+    <style>
+        .example {
+            width: 100vw;
+            margin-top: 200px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .example textarea, #event-title, #range {
+            font-size: xx-large;
+        }
+
+        .example textarea {
+            width: 70%;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Sherlock.js</h1>
+<div class="example">
+    <textarea id="inputtext" type="text"></textarea>
+    <div id="event-title"></div>
+    <div id="range"></div>
+</div>
+
+<script>
+    document.querySelector('#inputtext').addEventListener('input', function(event) {
+        var sherlocked = sherlock.parse(event.currentTarget.value);
+        document.querySelector('#event-title').innerText = "Event title: " + sherlocked.eventTitle;
+        document.querySelector('#range').innerText = 'Start: ' + sherlocked.startDate + ' through ' + sherlocked.endDate;
+    });
+</script>
+
+
+</body>
+</html>

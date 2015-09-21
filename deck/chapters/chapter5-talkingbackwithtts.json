@@ -1,0 +1,202 @@
+{
+  "slides": [
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "JS Talks Back"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "var msg = new SpeechSynthesisUtterance('Hello World');<br />window.speechSynthesis.speak(msg);"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "images": [
+        {
+          "region": "center",
+          "image": "speechsynthesissettings.png"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "speechSynthesis.getVoices();"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "A nice speech <a href=\"examples/webspeechsynthesisdemo.html\">synthesis demo</a>"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "Not the stablest of Chrome Features <br /><br /> So, lets checkout the actual endpoint"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "Google Translate!<br /><br />http://translate.google.com/translate_tts?tl=en&q=yourqueryhere"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "header",
+          "html": "Undocumented and not official"
+        },
+        {
+          "region": "left",
+          "html": "On the server... http://translate.google.com/translate_tts?tl=en&q=yourqueryhere...becomes <br /><br />http://translate.google.com/translate_tts?tl=en&q=yourqueryhere&client=t <br /><br />With headers User-Agent: stagefright/1.2 (Linux;Android 5.0) Referer: http://translate.google.com/"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "header",
+          "html": "Some language codes for ya..."
+        },
+        {
+          "region": "footer",
+          "html": "Dutch: nl, French: fr, Japanese: ja, Russian: ru, German: de<br/>More at https://cloud.google.com/translate/v2/using_rest?hl=en"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "header",
+          "html": "Keep it short"
+        },
+        {
+          "region": "center",
+          "html": "Max Char limit around 255"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "header",
+          "html": "Keep it shorter"
+        },
+        {
+          "region": "center",
+          "html": "I like to keep it around 80 and then string together the short responses"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "Be sure to use natural speech breaks in your requests"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "FFMPEG can be used to piece your speech files together"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "Maybe even set to a beat...<br /><br /><a href=\"http://www.song-lyrics-generator.org.uk/create.php?song=6\""
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    }
+
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "slides": [
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "Going Chromeless"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "Google's Speech Recognition is top notch<br />How did they get so good?"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+    {
+      "text": [
+        {
+          "region": "header",
+          "html": "Training: GOOG-411"
+        },
+        {
+          "region": "left",
+          "html": "Back in 2007 we launched 1-800-GOOG-411, a voice-powered directory assistance service that connects you quickly to businesses across the U.S. and Canada. On November 12, 2010, we will shut down the service. GOOG-411 was the first speech recognition service from Google and helped provide a foundation for more ambitious services now available on smartphones"
+        },
+        {
+          "region": "footer",
+          "html": "http://googleblog.blogspot.com/2010/10/goodbye-to-old-friend-1-800-goog-411.html"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "header",
+          "html": "It's open, but not..."
+        },
+        {
+          "region": "left",
+          "html": "<ul><li>An open spec published by the Speech API Community Group</li><li>Not a W3C Spec, nor is it on track to become one</li><li>The speech API just defines client side, but the real recognition work is done on the back-end</li><li>Chrome uses Google's Speech-to-Text services</li></ul>"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "background": "ie4.gif",
+      "backgroundProperties": {
+        "bounds": "contain"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "header",
+          "html": "Other ways..."
+        },
+        {
+          "region": "left",
+          "html": "The browser supports Microphone input: <br /> Ex: navigator.getUserMedia({audio:true}, onSuccess, onError);"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "How do we get from Speech to Text (it's hard!)"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "header",
+          "html": "A nifty Emscripten compiled package"
+        },
+        {
+          "region": "footer",
+          "html": "but fairly limited in scope and doesn't work quite as well"
+        }
+      ],
+      "background": "pocketsphinx.png",
+      "backgroundProperties": {
+        "bounds": "contain"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "It's paid service time"
+        }
+      ],
+
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "It's paid service time"
+        }
+      ],
+      "background": "googledevkeys.png",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "header",
+          "html": "AT&T"
+        },
+        {
+          "region": "left",
+          "html": "<ul><li>$99 Annual Access Fee</li><li>1 million 30 Second Speech Interactions</li><li>$0.007 each additional</li><li>http://developer.att.com/apis/speech/docs</li></ul>"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "header",
+          "html": "Nuance (Dragon)"
+        },
+        {
+          "region": "left",
+          "html": "<ul><li>Tiered Packaging</li><li>Up to 20k transactions free</li><li>$0.008 each additional</li><li>Top tier at $10k per month</li></ul>"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "header",
+          "html": "Project Oxford (Microsoft)"
+        },
+        {
+          "region": "left",
+          "html": "<ul><li>Demo Only Now</li><li>Must join Azure Cloud Services to use</li><li>Offers Speech Intent</li><li>Research more</li></ul>"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    }
+  ]
+}

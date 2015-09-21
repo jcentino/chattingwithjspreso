@@ -2,6 +2,7 @@
   "baseImagePath": "./deck/images",
   "baseHTMLTemplatePath": "./deck/htmlincludes",
   "content": [
+    { "name": "Chapter 0 - Intro", "file": "./deck/chapters/chapter0-intro.json" },
     { "name": "Chapter 1 - The Web Speech API", "file": "./deck/chapters/chapter1-webspeechapi.json" },
     { "name": "Chapter 2 - Lets Abuse the Web Speech API", "file": "./deck/chapters/chapter2-abusingthewebspeechapi.json" },
     { "name": "Chapter 3 - Context Matters", "file": "./deck/chapters/chapter3-contextmatters.json" },

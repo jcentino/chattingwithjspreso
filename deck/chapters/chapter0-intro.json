@@ -1,0 +1,98 @@
+{
+  "slides": [
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "Hi I'm Ben and I work at <img src=\"./deck/images/adobe.png\">"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "I work for the XD Studio team"
+        }
+      ],
+      "background": "projectcontext.png",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "<ul><li>ben@benfarrell.com</li><li>www.benfarrell.com</li><li>@bfarrellforever</li><li>www.benfarrell.com</li><li>https://github.com/bengfarrell</li></ul>"
+        }
+      ],
+      "background": "projectcontext.png",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "To Me: Speech and language are cool. It's a hard problem to solve technically or from a user experience standpoint"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "For Adobe: Our interfaces are complex, we always want to explore more natural ways of using our software"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "Voice interaction is challenging because sci-fi has made it look so easy"
+        },
+        {
+          "region": "footer",
+          "html": "from https://scifiinterfaces.wordpress.com/2015/07/01/iron-man-hud-a-breakdown"
+        }
+      ],
+      "background": "ironman.png",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "center",
+          "html": "JS is a great middle ground in this realm.<br/><br/> It's at the forefront of user experience, but somewhat behind in data sciences"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    }
+  ]
+}

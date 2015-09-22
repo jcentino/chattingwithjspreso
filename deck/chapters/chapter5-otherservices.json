@@ -72,22 +72,6 @@
     {
       "text": [
         {
-          "region": "header",
-          "html": "Other ways..."
-        },
-        {
-          "region": "left",
-          "html": "The browser supports Microphone input: <br /> Ex: navigator.getUserMedia({audio:true}, onSuccess, onError);"
-        }
-      ],
-      "background": "bgimage.jpg",
-      "backgroundProperties": {
-        "bounds": "cover"
-      }
-    },
-    {
-      "text": [
-        {
           "region": "center",
           "html": "How do we get from Speech to Text (it's hard!)"
         }
@@ -102,7 +86,24 @@
       "text": [
         {
           "region": "header",
-          "html": "A nifty Emscripten compiled package"
+          "html": "Other ways..."
+        },
+        {
+          "region": "left",
+          "html": "The browser supports Microphone input: <br /> Ex: navigator.getUserMedia({audio:true}, onSuccess, onError);"
+        }
+      ],
+      "background": "bgimage.jpg",
+      "backgroundProperties": {
+        "bounds": "cover"
+      }
+    },
+
+    {
+      "text": [
+        {
+          "region": "header",
+          "html": "A nifty Emscripten compiled package <a href=\"http://syl22-00.github.io/pocketsphinx.js/live-demo.html\">demo</a>"
         },
         {
           "region": "footer",
@@ -180,11 +181,11 @@
       "text": [
         {
           "region": "header",
-          "html": "Project Oxford (Microsoft)"
+          "html": "<a href=\"https://www.projectoxford.ai/demo/speech#recognition\">Project Oxford (Microsoft)</a>"
         },
         {
           "region": "left",
-          "html": "<ul><li>Demo Only Now</li><li>Must join Azure Cloud Services to use</li><li>Offers Speech Intent</li><li>Research more</li></ul>"
+          "html": "<ul><li>Demo Only Now</li><li>Must join Azure Cloud Services to use</li><li>Offers Speech Intent</li></ul>"
         }
       ],
       "background": "bgimage.jpg",

@@ -43,19 +43,6 @@
       "text": [
         {
           "region": "center",
-          "html": "speechSynthesis.getVoices();"
-        }
-      ],
-      "background": "bgimage.jpg",
-      "backgroundProperties": {
-        "bounds": "cover"
-      }
-    },
-
-    {
-      "text": [
-        {
-          "region": "center",
           "html": "A nice speech <a href=\"examples/webspeechsynthesisdemo.html\">synthesis demo</a>"
         }
       ],
@@ -176,7 +163,7 @@
       "text": [
         {
           "region": "center",
-          "html": "FFMPEG can be used to piece your speech files together"
+          "html": "Results can be strung together and then saved to a file"
         }
       ],
       "background": "bgimage.jpg",
@@ -189,7 +176,7 @@
       "text": [
         {
           "region": "center",
-          "html": "Maybe even set to a beat...<br /><br /><a href=\"http://www.song-lyrics-generator.org.uk/create.php?song=6\""
+          "html": "Maybe even mix with FFMPEG and set to a beat...<br /><br /><a href=\"http://www.song-lyrics-generator.org.uk/create.php?song=6\""
         }
       ],
       "background": "bgimage.jpg",

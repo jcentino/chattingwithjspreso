@@ -30,7 +30,7 @@
       "text": [
         {
           "region": "center",
-          "html": "<ul><li>ben@benfarrell.com</li><li>www.benfarrell.com</li><li>@bfarrellforever</li><li>www.benfarrell.com</li><li>https://github.com/bengfarrell</li></ul>"
+          "html": "<ul><li>ben@benfarrell.com</li><li>@bfarrellforever</li><li>www.benfarrell.com</li><li>https://github.com/bengfarrell</li></ul>"
         }
       ],
       "background": "projectcontext.png",
@@ -43,7 +43,7 @@
       "text": [
         {
           "region": "center",
-          "html": "To Me: Speech and language are cool. It's a hard problem to solve technically or from a user experience standpoint"
+          "html": "To Me: Speech and language are cool. <br /><br />It's a hard problem to solve technically or from a user experience standpoint"
         }
       ],
       "background": "bgimage.jpg",

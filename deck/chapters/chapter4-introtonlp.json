@@ -95,7 +95,7 @@
       "text": [
         {
           "region": "header",
-          "html": "NLP-Compromise goes even further"
+          "html": "<a href=\"./examples/nlp-compromise.html\">NLP-Compromise</a> goes even further"
         },
         {
           "region": "left",

@@ -7,6 +7,7 @@
     { "name": "Chapter 2 - Lets Abuse the Web Speech API", "file": "./deck/chapters/chapter2-abusingthewebspeechapi.json" },
     { "name": "Chapter 3 - Context Matters", "file": "./deck/chapters/chapter3-contextmatters.json" },
     { "name": "Chapter 4 - Intro to NLP", "file": "./deck/chapters/chapter4-introtonlp.json" },
-    { "name": "Chapter 5 - Talking Back", "file": "./deck/chapters/chapter5-talkingbackwithtts.json" }
+    { "name": "Chapter 5 - Other Services", "file": "./deck/chapters/chapter5-otherservices.json" },
+    { "name": "Chapter 6 - Talking Back", "file": "./deck/chapters/chapter6-talkingbackwithtts.json" }
   ]
 }

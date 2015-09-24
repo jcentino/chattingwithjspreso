@@ -103,7 +103,7 @@
       "text": [
         {
           "region": "header",
-          "html": "A nifty Emscripten compiled package <a href=\"http://syl22-00.github.io/pocketsphinx.js/live-demo.html\">demo</a>"
+          "html": "A nifty Emscripten compiled package <a href=\"http://syl22-00.github.io/pocketsphinx.js/live-demo.html\" target=\"blank\">demo</a>"
         },
         {
           "region": "footer",

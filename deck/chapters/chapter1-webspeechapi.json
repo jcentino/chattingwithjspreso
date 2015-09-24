@@ -130,7 +130,7 @@
         },
         {
           "region": "left",
-          "html": "<ul><li>speech.continuous = true;</li><li>speech.interimResults</li></ul>"
+          "html": "<ul><li>speech.continuous = true;</li><li>speech.interimResults = true</li></ul>"
         }
       ],
       "background": "bgimage.jpg",

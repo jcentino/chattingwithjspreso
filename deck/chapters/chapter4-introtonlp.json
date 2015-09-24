@@ -38,20 +38,6 @@
         "bounds": "contain"
       }
     },
-
-    {
-      "text": [
-        {
-          "region": "center",
-          "html": "Some paid services with REST endpoints <br /> <a target=\"blank\" href=\"https://www.textrazor.com/demo\">Text Razor</a>"
-        }
-      ],
-      "background": "bgimage.jpg",
-      "backgroundProperties": {
-        "bounds": "contain"
-      }
-    },
-
     {
       "text": [
         {
@@ -95,7 +81,7 @@
       "text": [
         {
           "region": "header",
-          "html": "<a href=\"./examples/nlp-compromise.html\">NLP-Compromise</a> goes even further"
+          "html": "<a href=\"./examples/nlpcompromise.html\" target=\"blank\">NLP-Compromise</a> goes even further"
         },
         {
           "region": "left",

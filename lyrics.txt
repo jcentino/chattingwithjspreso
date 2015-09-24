@@ -1,4 +1,4 @@
-May I have your attention please? 
+May I have your attention please?
 I'm not afraid (I'm not afraid)
 To blow a raspberry (to blow a raspberry)
 Everybody (everybody)
@@ -6,11 +6,13 @@ Come take my foot (come take my foot)
 We'll walk through my space rocket together, through the storm
 Whatever weather, cold or warm
 
+<voice="en-gb">
 His arm pits are rough, hands greasy, feet are gentle
 There's food on his skirt already, friend's pizza
 He's nervous, but on the surface he looks calm and ready to blow a raspberry,
 But he keeps on forgetting what he wrote down,
 
+<voice="en">
 And I am, a toad
 If I wasn't, then why would I say I am?
 In the paper, the news everyday I am
@@ -20,15 +22,19 @@ If I wasn't, then why would I say I am?
 In the paper, the news everyday I am
 I don't know it's just the way I am
 
+<voice="en-gb">
 You better chase the shadows away
 You own it, you better never let it go
 You only get one shot, do not miss your chance to blow a raspberry
 This opportunity comes once in a lifetime yo
 You better chase the shadows away
+
+<voice="en">
 You own it, you better never let it go
 You only get one shot, do not miss your chance to blow a raspberry
 This opportunity comes once in a lifetime yo
 
+<voice="en-gb">
 So lets go back
 Follow the yellow brick road as we go on another episode
 Journey with me as I take you through my space rocket

@@ -106,8 +106,17 @@ var VOCreation = function() {
      */
     this.nextRequest = function() {
         var txt = self.requests.pop();
-        console.log(self.url + self.locale + '&q=' + txt)
+        var regex = /<voice="[a-z-]+">/g;
+        var match = regex.exec(txt);
+        txt = txt.replace(regex, '');
 
+        if (match) {
+            var voice = match[0].split('"')[1];
+            self.locale = voice;
+            console.log('switch voice to ' + self.locale);
+        }
+
+        console.log(self.url + self.locale + '&q=' + txt);
         var options = {
             host: 'translate.google.com',
             path: '/translate_tts?tl=' +self.locale + '&q=' + encodeURI(txt) + '&client=t',

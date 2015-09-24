@@ -8,9 +8,9 @@ var path = require('path');
 
 var lyrics = fs.readFileSync('lyrics.txt', 'utf8');
 lyrics = lyrics.split('\n');
-lyrics = lyrics.join('<speechbreak>')
+lyrics = lyrics.join('<speechbreak>');
 
-vo.create('en-GB', lyrics, function(result) {
+vo.create('hi', lyrics, function(result) {
    fs.writeFileSync( 'lyrics.mp3', result.audio, 'base64');
 
    new GetMediaInfo(path.resolve('lyrics.mp3'), function(err, asset) {
